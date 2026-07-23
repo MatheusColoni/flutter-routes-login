@@ -15,4 +15,12 @@
     <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
         <item name="android:windowBackground">?android:colorBackground</item>
     </style>
+
+    <style name="SplashScreen.Screen" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:src">@drawable/splash_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:windowBackground">@color/Azul</item>
+        <item name="android:windowDisablePreview">true</item>
+
+    </style>
 </resources>
