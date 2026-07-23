@@ -1,0 +1,9 @@
+# Mark platform runner code as vendored so GitHub Linguist
+# reports the project language as Dart instead of C++/Swift.
+windows/** linguist-vendored
+linux/** linguist-vendored
+macos/** linguist-vendored
+ios/** linguist-vendored
+android/** linguist-vendored
+web/** linguist-vendored
+
